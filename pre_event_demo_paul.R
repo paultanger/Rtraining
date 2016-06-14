@@ -158,6 +158,12 @@ data(ChickWeight)
 ChickWeight
 chickwide = dcast(ChickWeight, Chick + Diet ~ Time)
 
+setwd(datapath)
+example = read.csv("Example.csv", header=T)
+exampleWide = melt(example, subject + sex  )
+example$subject = as.factor(as.character(example$subject))
+exampleWide = melt(example, idvars=c("subject", "sex"))
+
 # saving and loading sessions
 
 # removing things

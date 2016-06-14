@@ -1,7 +1,7 @@
 # this is a comment, it doesn't run (use #)
 
 # R can do math and stuff
-# to run a line of code, shift enter or cmd enter
+# to run a line of code, ctrl enter or cmd enter
 1 + 1
 # to store the answer somewhere, assign it
 # the thing to the left.. R will try to guess what type of variable to create (this can get really complicated)
